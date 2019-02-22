@@ -1,0 +1,138 @@
+@charset "ISO-8859-1";
+body {
+
+}
+div.main{
+	width:1350px;
+}
+div.title{
+	width:1350px;
+	height:100px;
+	background-color:#2361ff;
+	background:url(Images/Logo.jpg)
+}
+div.top_menu{
+	float:left;
+	width:1350px;
+	height:29px;
+	margin-left:0px;
+	background-color: #006599;
+	font-family: Arial; 
+}
+a.menu:hover, a.menu:active {
+	 color: #96dce0;
+	}
+a.menu1:hover, a.menu1:active {
+	font-size: 105%;
+	}
+a.menu2:hover, a.menu2:active {
+	font-size: 105%;
+	}
+a.menu3:hover, a.menu3:active {
+	font-size: 105%;
+	}
+a.menu4:hover, a.menu4:active {
+	font-size: 105%;
+	}
+a.menu5:hover, a.menu5:active {
+	font-size: 105%;
+	}
+a.menu1{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 45px;
+	  border-radius: 3px;
+	  position: relative; 
+}
+a.menu2{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 25px;
+	  border-radius: 3px;
+	  position: relative; 
+}
+a.menu3{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 45px;
+	  border-radius: 3px;
+	  position: relative; 
+}
+a.menu4{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 45px;
+	  border-radius: 3px;
+	  position: relative;
+}
+a.menu5{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 45px;
+	  border-radius: 3px;
+	  position: relative;
+}
+
+
+a.terms{
+	text-decoration:none;
+}
+div.reg-title{
+	margin-left:130px;
+	float:left;
+	width:100px;
+	height:70px;
+}
+div.reg_form{
+	float:left;
+	width:1360px;
+	height:530px;
+	color:black;
+	background:url(Images/LoginBg.jpg)no-repeat center;
+}
+div.table{
+	float:left;
+	width:300px;
+	height:300px;
+	color:black;
+	margin-left:470px;
+	margin-top:100px;
+}
+
+div.footer{
+	width:1350px;
+	height:30px;
+	background-color:grey;
+	margin-top:560px;
+	background:url(Images/footer.jpg)no-repeat center;
+}

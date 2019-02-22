@@ -1,0 +1,319 @@
+@charset "ISO-8859-1";
+
+div.main{
+	width:1350px;
+}
+div.title{
+	width:1350px;
+	height:100px;
+	background-color:#2361ff;
+	background-image:url(Images/Logo.jpg)
+}
+div.top_menu{
+	float:left;
+	width:1350px;
+	height:29px;
+	margin-left:0px;
+	background-color: #006599;
+	font-family: Arial; 
+}
+a.menu:hover, a.menu:active {
+	 color: #96dce0;
+	}
+a.menu1:hover, a.menu1:active {
+	font-size: 105%;
+	}
+a.menu2:hover, a.menu2:active {
+	font-size: 105%;
+	}
+a.menu3:hover, a.menu3:active {
+	font-size: 105%;
+	}
+a.menu4:hover, a.menu4:active {
+	font-size: 105%;
+	}
+a.menu5:hover, a.menu5:active {
+	font-size: 105%;
+	}
+a.menu1{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 45px;
+	  border-radius: 3px;
+	  position: relative; 
+}
+a.menu2{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 25px;
+	  border-radius: 3px;
+	  position: relative; 
+}
+a.menu3{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 45px;
+	  border-radius: 3px;
+	  position: relative; 
+}
+a.menu4{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 45px;
+	  border-radius: 3px;
+	  position: relative;
+}
+a.menu5{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 45px;
+	  border-radius: 3px;
+	  position: relative;
+}
+a.menu_side:hover, a.menu_side:active {
+	 color:#96dce0;
+	}
+a.menu_side{
+	  text-decoration:none;
+	  float:right;
+	  color:white;
+	  font-weight: bold;
+	  margin:15px 15px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 10px 20px;
+	  border-radius: 30px;
+	  position: relative; 
+	
+}
+div.cover1{
+	margin-top:21px;
+	padding-top:5px;
+	width:1350px;
+	height:300px;
+}
+.slider {
+    float:left;
+	width:1350px;
+	height:300px;
+	background-color:white;
+	position: relative;
+	margin-top:1px;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+	background: url(Images/01.jpg)no-repeat center;
+    background-size: cover;
+    animation:fade 32s infinite;
+	-webkit-animation:fade 32s infinite;
+} 
+.slide2 {
+	background:url(Images/02.jpg)no-repeat center;
+    background-size: cover;
+    animation:fade2 32s infinite;
+	-webkit-animation:fade2 32s infinite;
+}
+.slide3 {
+    background: url(Images/03.jpg)no-repeat center;
+	background-size: cover;
+    animation:fade3 32s infinite;
+	-webkit-animation:fade3 32s infinite;
+}
+.slide4 {
+    background: url(Images/04.jpg)no-repeat center;
+	background-size: cover;
+    animation:fade4 32s infinite;
+	-webkit-animation:fade4 32s infinite;
+}.slide5 {
+    background: url(Images/05.jpg)no-repeat center;
+	background-size: cover;
+    animation:fade5 32s infinite;
+	-webkit-animation:fade5 32s infinite;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+@keyframes fade4
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+@keyframes fade5
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+div.services{
+	margin-top:5px;
+	width:1350px;
+	height:400px;
+	background-color:grey;
+	background:url(Images/Services.jpg)no-repeat center;
+	color:black;
+	font-size:22px;
+}
+div.left_side{
+	float:left;
+	width:275px;
+	height:400px;
+	background-color:white;
+	
+}
+div.cover2_container{
+	float:left;
+	width:1350px;
+	height:400px;
+	background-color:white;
+	margin-top:5px;
+}
+div.cover2{
+	float:left;
+	width:800px;
+	height:400px;
+    margin-left:0px;
+    margin-right:0px;
+    text-align: center;
+    overflow: hidden;
+    background-color:grey;
+	
+}
+ .image-holder
+        {
+            width: 2400px;
+            background-color: red;
+            height: 400px;
+            clear: both;
+            position: relative;
+           -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+       
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+       
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+       
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -800px;
+        }
+       
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+       
+        .button-holder
+        {
+            position: relative;
+            top: -25px;
+			
+        }
+       
+        .slider-change
+        {
+            display: inline-block;
+            height: 15px;
+            width: 15px;
+            border-radius: 10px;
+            background-color: White;
+			
+        }
+
+div.right_side{
+	float:left;
+	width:275px;
+	height:400px;
+	background-color:white;
+	
+}
+div.notice{
+	width:1350px;
+	height:300px;
+	background-color:#006599;
+	background:url(Images/notice.jpg)no-repeat center;
+	margin-top:410px;
+}	
+a.notice-links{
+	text-decoration:none;
+	color:black;
+}
+div.follow{
+	float:left;
+	margin-top:0px;
+}
+div.help{
+	float:left;
+	margin-top:0px;
+}
+div.footer{
+	width:1350px;
+	height:30px;
+	margin-top:1px;
+	background:url(Images/footer.jpg)no-repeat center;
+}	

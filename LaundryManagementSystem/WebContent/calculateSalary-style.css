@@ -1,0 +1,141 @@
+@charset "ISO-8859-1";
+div.main{
+	width:1350px;
+}
+div.title{
+	width:1350px;
+	height:100px;
+	background-color:#2361ff;
+	background-image:url(Images/Logo.jpg)
+}
+div.top_menu{
+	float:left;
+	width:1350px;
+	height:29px;
+	margin-left:0px;
+	background-color: #006599;
+	font-family: Arial; 
+}
+a.menu:hover, a.menu:active {
+	 color: #96dce0;
+	}
+a.menu1:hover, a.menu1:active {
+	font-size: 105%;
+	}
+a.menu2:hover, a.menu2:active {
+	font-size: 105%;
+	}
+a.menu3:hover, a.menu3:active {
+	font-size: 105%;
+	}
+a.menu4:hover, a.menu4:active {
+	font-size: 105%;
+	}
+a.menu5:hover, a.menu5:active {
+	font-size: 105%;
+	}
+a.menu1{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 45px;
+	  border-radius: 3px;
+	  position: relative; 
+}
+a.menu2{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 25px;
+	  border-radius: 3px;
+	  position: relative; 
+}
+a.menu3{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 45px;
+	  border-radius: 3px;
+	  position: relative; 
+}
+a.menu4{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 45px;
+	  border-radius: 3px;
+	  position: relative;
+}
+a.menu5{
+	  padding-left:25px;
+	  font-size:21px;
+	  text-decoration:none;
+	  float:left;
+	  color:white;
+	  font-weight: bold;
+	  margin:1px 1px;
+	  background: linear-gradient(to bottom right, #33b787, #2282a3);
+	  padding: 1px 45px;
+	  border-radius: 3px;
+	  position: relative;
+}
+div.left_sidebar{
+	float:left;
+	width:270px;
+	height:830px;
+	background-color:grey;
+	background:url(Images/Emp2.jpg)no-repeat center;
+}
+div.right_sidebar{
+	float:right;
+	width:270px;
+	height:830px;
+	background-color:grey;
+	background:url(Images/Emp3.jpg)no-repeat center;
+}
+div.Calculate{
+	float:left;
+	width:810px;
+	height:300px;
+	color:black;
+}
+div.Calculate-title{
+	text-align:center;
+	float:left;
+	width:810px;
+	height:70px;
+}
+div.reg_form{
+	float:left;
+	width:810px;
+	height:830px;
+	color:black;
+	background:url(Images/Emp1.jpg)no-repeat center;
+}
+div.footer{
+	width:1350px;
+	height:30px;
+	background-color:grey;
+	margin-top:860px;
+	background:url(Images/footer.jpg)no-repeat center;
+}
